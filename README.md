@@ -1,3 +1,5 @@
 # Resume
 
-My resume (CV) at: https://shenxianpeng.github.io/resume
+Resume (CV): https://shenxianpeng.github.io/resume
+
+简历地址：https://shenxianpeng.github.io/resume-cn
