@@ -151,10 +151,10 @@ skills:
 
     toolset:
 
-      - name: DevOps/CI/CD
+      - name: DevOps
         level: 95%
 
-      - name: DevOps tools
+      - name: DevOps toolchain
         level: 95%
 
       - name: Python
