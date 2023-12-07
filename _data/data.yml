@@ -79,8 +79,8 @@ experiences:
       details: |
         Rocket Discover Automation Test Leader, leading test teams to automate tests from scratch and improve regression testing efficiency.
 
-          - Responsible for automation framework selection, automation test case design and process development, performance automation test case design, performance script recording and writing.
-          - Responsible for automation testing, performance testing and Jenkins integration, maintenance of test related Git repository, test technology recruitment, newcomer training.
+          - Responsible for automation test framework selection and use case design, design and write performance automation test cases.
+          - Responsible for automation testing, performance testing and Jenkins integration, test technology recruitment, newcomer training.
 
     - role: Software Engineer In Test
       time: 2012 - 2014
@@ -88,8 +88,8 @@ experiences:
       details: |
         JD Test Engineer
 
-          - Responsible for functional testing, automated test script development, integration and maintenance of multiple systems in Jingdong(JD) Finance Group.
-          - Experience in Internet industry, understanding of e-commerce business.
+          - Responsible for functional testing, automated test script development, integration and maintenance for several systems in Jingdong Finance Group.
+          - Experience in internet company, understanding of e-commerce business.
 
     - role: Quality Assurance Engineer
       time: 2011 - 2011
@@ -97,7 +97,7 @@ experiences:
       details: |
         Software testing, experienced two large-scale projects of software testing work.
 
-          - Foreign exchange bureau, the project team of about 100 people, the test team has about 20 people, the project using CMMI3 software management, responsible for use case writing and functional testing.
+          - Foreign exchange bureau, responsible for use case writing and functional testing.
           - China Mobile Cloud Platform, responsible for virtual machine management test case writing and functional testing in the platform.
 
 projects:
