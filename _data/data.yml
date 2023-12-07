@@ -45,8 +45,9 @@ career-profile:
     title: About
     summary: |
       - Specialize in the design and development of CI/CD pipelines, automation, and configuration and management infrastructures, applying best practices.
-      - Keep Scan-Try-Scale in mind - always scan the latest DevOps industry developments and technologies, try to use them, and finally bring them to team.
-      - Familiar with Windows, Linux, AIX, Solaris, HP-UX operating systems, very familiar with DevOps tools including but not limited to Jenkins/Artifactory/Bitbucket/GitHub/Docker/Ansible/Polaris/BlackDuck/SonarQube/Vagrant/K8s and so on.
+      - Familiar with Windows, Linux, AIX, Solaris, HP-UX OS, and software development life cycle (SDLC) includes development, build, test, and release.
+      - Very familiar with DevOps toolchain including but not limited to Jenkins/Artifactory/Bitbucket/GitHub/Docker/Ansible/Polaris/BlackDuck/SonarQube/Vagrant/K8s and so on.
+      - Keep Scan-Try-Scale in mind - always scan the latest DevOps industry developments and technologies, try to use them, and finally scale to team.
       - My main development language is Python/Shell/Golang/Groovy for DevOps related work.
       - I am also an open source enthusiast, spare time cpp-linter and commit-check two projects, at present cpp-linter has more than 400 users, and is used by Microsoft, Google, as well as high starts in the project.
       - Insist on learning and sharing, over the past six years I have insisted on sharing knowledge in the DevOps field on my blog and WeChat public account "DevOps Engineer".
