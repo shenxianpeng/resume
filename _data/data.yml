@@ -49,7 +49,7 @@ career-profile:
       - Very familiar with DevOps toolchain including but not limited to Jenkins/Artifactory/Bitbucket/GitHub/Docker/Ansible/Polaris/BlackDuck/SonarQube/Vagrant/K8s and so on.
       - Keep Scan-Try-Scale in mind - always scan the latest DevOps industry developments and technologies, try to use them, and finally scale to team.
       - My main development language is Python/Shell/Golang/Groovy for DevOps related work.
-      - I am also an open source enthusiast, spare time cpp-linter and commit-check two projects, at present cpp-linter has more than 400 users, and is used by Microsoft, Google, as well as high starts in the project.
+      - I am also an open source enthusiast, created [cpp-linter](https://github.com/cpp-linter) and [commit-check](https://github.com/commit-check) two projects in my spare time, at present cpp-linter has more than 400 users, and is used by Microsoft, Google, as well as high starts in the project.
       - Insist on learning and sharing, over the past six years I have insisted on sharing knowledge in the DevOps field on my blog and WeChat public account "DevOps Engineer".
 
 education:
