@@ -18,7 +18,7 @@ sidebar:
     linkedin: xianpeng-shen
     github: shenxianpeng
     gitlab:
-    bitbucket:
+    bitbucket: https://git.rocketsoftware.com/users/xshen
     twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
@@ -44,11 +44,12 @@ sidebar:
 career-profile:
     title: About
     summary: |
-      - Responsible for the design and setup of the DevOps pipeline, automated builds, releases, and infrastructure management for the RocketSoftware MultiValue Database product line.
-      - Familiarity with Windows, Linux, AIX, Solaris, HP-UX operating systems, and DevOps tools including but not limited to Jenkins/GitHub Actions/Artifactory/Bitbucket/GitHub/Docker/Ansible/Vagrant/K8s/Polaris/Blackduck/SonarQube/GCOV/LCOV and so on.
-      - The main development language is Python/Shell/Golang/Groovy to do DevOps work.
-      - Open source enthusiast created and shared cpp-linter and commit-check, currently cpp-linter has more than 400 users.
-      - I've been sharing DevOps domain knowledge internal and external on my blog and WeChat public number "DevOps Engineer" for more than 6 years.
+      - Specialize in the design and development of CI/CD pipelines, automation, and configuration and management infrastructures, applying best practices.
+      - Keep Scan-Try-Scale in mind - always scan the latest DevOps industry developments and technologies, try to use them, and finally bring them to team.
+      - Familiar with Windows, Linux, AIX, Solaris, HP-UX operating systems, very familiar with DevOps tools including but not limited to Jenkins/Artifactory/Bitbucket/GitHub/Docker/Ansible/Polaris/Blackduck/SonarQube/GCOV/LCOV/Vagrant/K8s and so on.
+      - My main development language is Python/Shell/Golang/Groovy for DevOps related work.
+      - I am also an open source enthusiast, spare time cpp-linter and commit-check two projects, at present cpp-linter has more than 400 users, and is used by Microsoft, Google, as well as high starts in the project.
+      - Insist on learning and sharing, over the past six years I have insisted on sharing knowledge in the DevOps field on my blog and WeChat public account "DevOps Engineer".
 
 education:
     - degree: College degree, Software Technology
@@ -61,14 +62,15 @@ experiences:
       time: 2018 - Present
       company: Rocket Software, Dalian
       details: |
-        MultiValue's Build/DevOps Engineers are responsible for product builds and releases, infrastructure management, and DevOps pipeline planning and implementation.
+        The Build/DevOps Engineer responsible for MultiValue is responsible for product builds and releases, infrastructure management, and DevOps pipeline design and implementation.
 
-          - Plan and implement DevOps pipelines to help teams automate unattended builds, installations, security scans, tests, and other pipelines to improve R&D efficiency and quality. Responsible for product builds and releases, ensuring delivery of high-quality, legally risk-free products.
-          - Develop Git branching strategies, manage Git branches, share best practices, and optimize workflows. Git commit messages and branching specifications are used throughout the MultiValue team.
-          - Advocated and practiced Configuration as Code (CaC), and wrote the Jenkins Shared Library, which has been shared and Forked many times by internal teams.
-          - I have created several repositories that I wrote, including u2cicd, docker-images, ansible-playbook, u2box-cli, pipeline-library, vmmj, atlassian-api-py for implementing DevOps practices such as Configuration as code, Infrastructure as code and containerization.
-          - By constantly optimizing and introducing the right DevOps tools and sharing best practices, the team stays on the "leading edge" of DevOps in the company. For example, the DevOps Maturity Badge has been rolled out across the company.
-          - In addition to my work in the DevOps area, I helped the team get code coverage metrics for the first time in 30 years using GCOV + LCOV in the GCC compiler and helped the team upgrade the compiler version from the ancient XLC 10.1 to the latest Open XLC 17.1.0 on IBM AIX operating systems.
+          - Plan and implement DevOps pipelines to help teams automate unattended builds, installations, security scans, tests, and other pipelines to improve R&D efficiency and quality. Responsible for product builds and releases, and delivery high-quality, no legal risks products.
+          - Develop Git branching strategy, manage Git branches, share best practices, and optimize workflows. Developed and promoted Git conventional commit and branching specifications across the MultiValue team.
+          - Advocated and practiced Configuration as Code (CaC), wrote the Jenkins shared library, which has been shared and forked many times by internal teams. As well as ansible-playbook to help team  quickly provision build, development environments to avoid disaster risk.
+          - Created multiple repositories written by me including u2cicd, docker-images, ansible-playbook, u2box-cli, pipeline-library, vmmj, mv-infra for implementing DevOps practices such as Configuration as code, Infrastructure as code and containerization.
+          - By constantly optimizing and introducing the right DevOps tools and sharing best practices, the team stays on the "leading edge" of DevOps in Rocket. For example, the DevOps Maturity Badge has been rolled out across RocketSoftware R&D.
+          - In addition to my work in the DevOps area, I helped the team get code coverage metrics for the first time in 30 years using GCOV + LCOV and also helped team upgrade compiler from XLC 10.1 to the latest Open XLC 17.1.0 on IBM AIX OS.
+          - Submitted Rocket.Build ideas almost every year. RB-218 MV Intelligent Terminal won the 2019 Rocket Build First Prize and CPO Award and traveled to Boston to compete; RB-544 VitalSign was selected and made it to the second round of 2020 Rocket Virtual Build.
 
     - role: Software Engineer In Test
       time: 2015 - 2018
@@ -149,7 +151,10 @@ skills:
 
     toolset:
 
-      - name: DevOps
+      - name: DevOps/CI/CD
+        level: 95%
+
+      - name: DevOps tools
         level: 95%
 
       - name: Python
