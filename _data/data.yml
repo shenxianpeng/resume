@@ -44,13 +44,13 @@ sidebar:
 career-profile:
     title: About
     summary: |
-      - Specialize in the design and development of CI/CD pipelines, automation, and configuration and management infrastructures, applying best practices.
-      - Familiar with Windows, Linux, AIX, Solaris, HP-UX OS, and software development life cycle (SDLC) includes development, build, test, and release.
-      - Very familiar with DevOps toolchain including but not limited to Jenkins/Artifactory/Bitbucket/GitHub/Docker/Ansible/Polaris/BlackDuck/SonarQube/Vagrant/K8s and so on.
-      - Keep Scan-Try-Scale in mind - always scan the latest DevOps industry developments and technologies, try to use them, and finally scale to team.
+      - TechLead in DevOps/Build/Release area.
+      - Built team's CI and DevOps from scratch and share best practices within team and BU.
+      - Familiarity with Windows, Linux, AIX, Solaris, HP-UX operating systems, software development lifecycle, DevOps toolchain.
+      - Good at doing "Scan-Try-Scale", following the latest developments and technologies in the DevOps industry, experimenting and applying best practices to the team.
       - My main development language is Python/Shell/Golang/Groovy for DevOps related work.
-      - I am also an open source enthusiast, created [cpp-linter](https://github.com/cpp-linter) and [commit-check](https://github.com/commit-check) two projects in my spare time, at present cpp-linter has more than 400 users, and is used by Microsoft, Google, as well as high starts in the project.
-      - Insist on learning and sharing, over the past six years I have insisted on sharing knowledge in the DevOps field on my blog and WeChat public account "DevOps Engineer".
+      - Open source enthusiast, created [cpp-linter](https://github.com/cpp-linter) and [commit-check](https://github.com/commit-check) two projects in my spare time, at present cpp-linter-action has more than 400 users, and is used by Microsoft, Google, as well as high starts GitHub project.
+      - Knowledge sharer, sharing hundreds of technical articles with hundreds of thousands of readers on my blog and WeChat public account "DevOps Engineer" for seven years.
 
 education:
     - degree: College degree, Software Technology
@@ -60,45 +60,42 @@ education:
 
 experiences:
     - role: DevOps Engineer
-      time: 2018 - Present
+      time: 2015 - Present
       company: Rocket Software, Dalian
       details: |
-        The Build/DevOps Engineer responsible for MultiValue is responsible for product builds and releases, infrastructure management, and DevOps pipeline design and implementation.
+        Rocket MultiValue Build/Release/DevOps Engineer responsible for product builds and releases, infrastructure management, and CI/CD pipeline design and implementation related to DevOps.
 
-          - Plan and implement DevOps pipelines to help teams automate unattended builds, installations, security scans, tests, and other pipelines to improve R&D efficiency and quality. Responsible for product builds and releases, and delivery high-quality, no legal risks products.
-          - Develop Git branching strategy, manage Git branches, share best practices, and optimize workflows. Developed and promoted Git conventional commit and branching specifications across the MultiValue team.
-          - Advocated and practiced Configuration as Code (CaC), wrote the Jenkins shared library, which has been shared and forked many times by internal teams. As well as ansible-playbook to help team  quickly provision build, development environments to avoid disaster risk.
-          - Created multiple repositories written by me including u2cicd, docker-images, ansible-playbook, u2box-cli, pipeline-library, vmmj, mv-infra for implementing DevOps practices such as Configuration as code, Infrastructure as code and containerization.
-          - By constantly optimizing and introducing the right DevOps tools and sharing best practices, the team stays on the "leading edge" of DevOps in Rocket. For example, the DevOps Maturity Badge has been rolled out across RocketSoftware R&D.
-          - In addition to my work in the DevOps area, I helped the team get code coverage metrics for the first time in 30 years using GCOV + LCOV and also helped team upgrade compiler from XLC 10.1 to the latest Open XLC 17.1.0 on IBM AIX OS.
-          - Submitted Rocket.Build ideas almost every year. RB-218 MV Intelligent Terminal won the 2019 Rocket Build First Prize and CPO Award and traveled to Boston to compete; RB-544 VitalSign was selected and made it to the second round of 2020 Rocket Virtual Build.
+        Play DevOps/Build/Release role in the following products
 
-    - role: Software Engineer In Test
-      time: 2015 - 2018
-      company: Rocket Software, Dalian
-      details: |
-        Rocket Discover Automation Test Leader, leading test teams to automate tests from scratch and improve regression testing efficiency.
+          -	MultiValue Application Server: UniVerse, UniData, jBASE, OpenQM.
+          - MVAS Tools: UCC, UDNK, MVVS, UOPY, and backup of UDBT and SBXA.
 
-          - Responsible for automation test framework selection and use case design, design and write performance automation test cases.
-          - Responsible for automation testing, performance testing and Jenkins integration, test technology recruitment, newcomer training.
+        DevOps Best Practices Implemented
+
+          - Configuration as Code (CaC) - transfer all builds from manual or Bamboo to Jenkins and create Jenkins shared library to better manage automated builds and scale. This provides team with a self-service build saves team's time and saves my time and CaC can quickly recover in case of any disaster. Also, share our best practices with other teams in creating a sharing pipeline library repo in Rocket.
+          -	Infrastructure as Code (IaC) - created ansible-playbooks and mv-infra repos to manage build, Jenkins server, and development infrastructure as code to help team quickly provision dev/build environment and prevent business from disaster.
+          -	Created Docker Images repo to Dockized MVAS products for containerization - the repo applies many of the latest practices in DevOps like building images with Docker buildx bake, testing images with health check, pytest, and CI/CD, management dependences with Renenote bot, and deploying docker images with Kubernetes.
+        
+        Initiatives proposed and implemented
+        
+          -	Proposed DevOps maturity badge to help MV teams better measure our DevOps maturity which has been scaled to Rocket R&D.
+          - Proposed conventional commit for the MVAS team and scale to the entire MV team. 
+          - Manage VMs with Jira - created Jira and wrote a Python program to automate the management of VMs to solve the problem of managing VMs for teams and managers which has been applied to the entire App Mod BU.
+          - Code Coverage - helped UniVerse and UniData obtain code coverage results for the first time in decades. and created coverage online reports for U2, jBASE, MVVS, etc.
+          - Rocket Build - always contributed innovative ideas, RB-218 MV Intelligent Terminal won the 2019 Rocket Build First Prize and CPO Award. RB-544 VitalSign was selected and reached to final round in 2020 Rocket Virtual Build.
+          - Before I joined MV, I was Rocket Discover automation leader, leading team to implement automated testing from scratch and improve regression testing efficiency.
 
     - role: Software Engineer In Test
       time: 2012 - 2014
       company: JD.COM, Beijing
       details: |
-        JD Test Engineer
-
-          - Responsible for functional testing, automated test script development, integration and maintenance for several systems in Jingdong Finance Group.
-          - Experience in internet company, understanding of e-commerce business.
+        Perform functional testing, development automated test script, and continue integration.
 
     - role: Quality Assurance Engineer
-      time: 2011 - 2011
-      company: Neusoft, Beijing
+      time: 2009 - 2011
+      company: SIMCOM(Shanghai) & Neusoft(Beijing)
       details: |
-        Software testing, experienced two large-scale projects of software testing work.
-
-          - Foreign exchange bureau, responsible for use case writing and functional testing.
-          - China Mobile Cloud Platform, responsible for virtual machine management test case writing and functional testing in the platform.
+        Design and perform test cases. Became a test leader and was responsible for assigning tasks as well as sharing testing techniques.
 
 projects:
     title: Projects
